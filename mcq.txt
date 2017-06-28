@@ -1,0 +1,127 @@
+q.1
+
+
+ans-(C)Both,server and client.
+
+node js is built on javascript and javascript runs on client and node js is a server side framework thats why it is also run on sever.
+
+q.2
+
+ans-(C)Asynchronous
+
+by default node js is asynchronous in nature because if any non-blocking request comes.it doesnot wait ,it start executing parallely with blocking request.
+
+q.3
+
+ans-(D)
+
+Node support all of these platform because it is used for building hybrid web application.
+
+q.4
+
+
+ans-(A)
+
+REPL is used for testing node.js/javascript expression because we can write node.js expression in REPL(Read Error Print Loop).
+
+
+q.5
+
+ans-(A)
+
+default scope of node.js application is global.but it is better to write node.js varriable in local because global variable occupied more memory space.
+
+
+
+q.6
+
+
+ans-(B)
+
+Node.js runs on single thread.if multiple request comes then its execution start in single thread at the same time.
+
+
+q.7
+
+ans-(A)
+
+modeule is a set of simple or complex function organised in single or multiple js files which will installed through NPM and reused in our node.js app.
+
+
+q.8
+
+ans-(c)
+
+using module.exports , we can use our module or files in a diffrent file.these files are treat as a module.
+
+
+q.9
+
+
+ans-(A)
+
+
+NPM is used for installing/updating/deleting third party packages.
+
+q.10
+
+ans-http
+
+http is a module which is used for creating web server 
+ex----http.createServer(function(req,res))
+{
+	
+
+}
+
+
+q.11
+
+ans-(A)
+
+we can import module by using require() function 
+ex-- var express=require('express').
+
+
+q.12
+
+ans-(D)
+
+
+we can built Web Application through Express module,Chat Application through express.io module and Restful services through Http VERBs.
+
+
+
+q.13
+
+
+ans-(C)
+
+
+node.js can access NoSQl database like MongoDb and relation Database like MYSQl.
+
+
+
+output .1---
+
+function test() {
+   console.log(a);
+   console.log(foo());
+   
+   var a = 1;
+   function foo() {
+      return 2;
+   }
+}
+
+test();
+
+
+ans---undefined,
+2
+
+
+
+
+
+
